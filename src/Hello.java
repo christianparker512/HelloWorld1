@@ -17,11 +17,16 @@ public class Hello {
         int myFirstNumber = 37;
         int myFirstProblem = 10 + 5;
         int mySecondProblem = (10 + 5) + (2 *10);
+        int myThirdNumber = myFirstNumber * 2;
+        int myTotal = myFirstProblem + mySecondProblem + myThirdNumber;
+        int myLastOne = 1000 - myTotal;
         //sout is a short cut.
         //use variable in the sout to print out the contents of the variable.
         System.out.println(myFirstNumber);
         System.out.println(myFirstProblem);
         System.out.println(mySecondProblem);
+        System.out.println(myTotal);
+        System.out.println(myLastOne);
     }
 }
 
