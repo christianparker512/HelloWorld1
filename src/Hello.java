@@ -9,7 +9,8 @@ public class Hello {
     //curly braces is the block of code statements describing a method.
     public static void main (String[]args){
         //statement to be executed that includes expressions.
-        System.out.println("Hello Chris");
+        //Text in double quotes is called a literal string.
+        System.out.println("Hello, Chris");
     }
 }
 
