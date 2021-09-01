@@ -10,7 +10,18 @@ public class Hello {
     public static void main (String[]args){
         //statement to be executed that includes expressions.
         //Text in double quotes is called a literal string.
+        //this is a literal
         System.out.println("Hello, Chris");
+        //declaration statement
+        //expression is a construct equals to a single value
+        int myFirstNumber = 37;
+        int myFirstProblem = 10 + 5;
+        int mySecondProblem = (10 + 5) + (2 *10);
+        //sout is a short cut.
+        //use variable in the sout to print out the contents of the variable.
+        System.out.println(myFirstNumber);
+        System.out.println(myFirstProblem);
+        System.out.println(mySecondProblem);
     }
 }
 
